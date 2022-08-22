@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.95@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b150da3120e37a2b2f19f728c867b1b6/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.95/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b150da3120e37a2b2f19f728c867b1b6/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.95/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b150da3120e37a2b2f19f728c867b1b6/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.95/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.95/5ba1281e0aaa1d81ec457f6564af5aae02413a88/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.95-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.95/610105c98015022480811307c5bda5f8a78f639a/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.95-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name" translatable="false">Live Location</string>
+
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="terms"><u>Terms of Services.</u></string>
+    <string name="background_location_permission_n_true_locator_only_works_correctly_if_it_can_access_your_location"><b>Background Location Permission</b> \n\n Allow all the time “Live Location” to access your current location even when you are not using the application.\n\n“Live Location” collects location data to generate location history report even when the app is closed or not in use. </string>
+    <string name="go_to_sign_up"><u>Go to Sign Up</u></string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="please_create_an_account_to_use_these_features">Please create an account to use these features</string>
+    <string name="create_account">Create Account</string>
+    <string name="contact_permission">Contact Permission</string>
+    <string name="allow">Allow</string>
+    <string name="create_group">Create Group</string>
+    <string name="permission">Permission</string>
+    <string name="by_tapping_on_sign_up_or_login_you_agree_to_the">By tapping on “Sign up or Login” you agree to the</string>
+    <string name="get_started">Get Started</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="password">Password</string>
+    <string name="enter_a_new_password">Enter a new password</string>
+    <string name="location">Location</string>
+    <string name="location_accuracy">Location Accuracy</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="street">Street</string>
+    <string name="live">Live</string>
+    <string name="share_live_location">Share Live Location</string>
+    <string name="invite">Invite</string>
+    <string name="invite_your_friends">Invite your Friends</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="facebook">Facebook</string>
+    <string name="messenger">Messenger</string>
+    <string name="others">Others</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="twitter">Twitter</string>
+    <string name="search">Search</string>
+    <string name="mobile_number_tracker_collects_location_data_to_enable_you_to_share_your_live_location_whenever_you_decide_so_even_if_the_app_is_closed_or_currently_not_in_use">Mobile Number Tracker collects location data to enable you to share your live location whenever you decide so, even if the app is closed or currently not in use.</string>
+    <string name="username">Username</string>
+    <string name="and_you">and you</string>
+    <string name="tap_on_to_add_more_members">Tap on “+” to add more members</string>
+    <string name="share_live_location_for">Share live location for</string>
+    <string name="send_location">Send Location</string>
+    <string name="stop_sharing">Stop Sharing</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="enter_otp_you_received">Enter OTP you received</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="choose_a_profile_picture">Choose a profile picture</string>
+    <string name="camera">Camera</string>
+    <string name="choose_from_library">Choose from Library</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="need_your_number_to_identify_you">Need your number to identify you.</string>
+    <string name="profile">Profile</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_amp_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Logout</string>
+    <string name="invite_your_contacts_to_share_live_location">Invite your contacts to share live location</string>
+    <string name="are_you_sure_you_want_to_delete_your_account">Are you sure you want to delete your account?</string>
+    <string name="if_you_decide_to_delete_the_account_you_will_lose_your_data">If you decide to delete the account, you will lose your data</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="enter_group_name">Enter Group name</string>
+    <string name="please_enter_a_group_name">Please enter a group name</string>
+    <string name="yes">Yes</string>
+    <string name="accept">Accept</string>
+    <string name="please_wait_ncontacts_are_loading">Please Wait!\nContacts are Loading</string>
+    <string name="enable">Enable</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="you_won_t_be_able_to_share_location_with_any_of_your_contacts_anymore">You won’t be able to share location with any of your contacts anymore</string>
+    <string name="no">No</string>
+    <string name="for_mobile_number_tracker_to_work_change_your_location_settings">For Mobile Number Tracker to work, change your location settings</string>
+    <string name="change_the_location_permission_to">Change the location permission to</string>
+    <string name="all_the_time">“All the time”</string>
+    <string name="_1_in_gps_phone_tracker_info">1. In Mobile Number Tracker info, <b>Tap permissions</b></string>
+    <string name="tap_permissions">Tap permissions</string>
+    <string name="_2_tap_into">2. Tap into</string>
+    <string name="location_permission">Location permission</string>
+    <string name="allow_all_the_time">Allow all the time</string>
+    <string name="_3_select">3. Select</string>
+    <string name="send_your_location">Send location via link</string>
+    <string name="invite_contact">Invite Contact</string>
+    <string name="sharing_live_location">Sharing live location</string>
+    <string name="pending">Pending</string>
+    <string name="waiting">Waiting to share</string>
+    <string name="you_are">"You are sharing live location with "</string>
+    <string name="you_are_sharing">You are sharing live location</string>
+    <string name="your_request">Your request will be removed when time\'s up</string>
+    <string name="accepted">Your request is accepted</string>
+    <string name="reduced">"has reduced the locating sharing by 5 minutes"</string>
+    <string name="remaining">Remaining time is already less than 5 minutes</string>
+    <string name="increased">"has increased the locating sharing for 5 minutes"</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="choose">Choose Language</string>
+    <string name="collects">This app collects location data to enable meetup points to share location with your group members, even when the app is closed or not in use. Your location data will also be shared with third parties, including for research tailored advertising, and analytics purposes, in accordance to our <font color ="#ff9431">Privacy Policy </font>and user settings.</string>
+    <string name="go_to_settings_and_follow_these_steps">In app settings, select <b>Allow all the time</b> for mobile number tracker location permission</string>
+    <string name="open_settings">Go to location permissions</string>
+    <string name="turn_on_location_service_true_locator_only_works_correctly_if_it_can_access_your_location">Mobile Number Tracker only works correctly if it can access your location <b>"Allow all the time"</b></string>
+    <string name="try_refresh">Try refresh the location</string>
+    <string name="inv">Invite Friends</string>
+    <string name="already">Group already created!</string>
+    <string name="share_live">Invite your friends to share live location</string>
+    <string name="created">Group is created tap on send location to share location</string>
+    <string name="not_found">No contacts found!</string>
+    <string name="fetching">Please Wait!\nFetching data</string>
+    <string name="edit_meetup">Edit meetup location</string>
+    <string name="name_required">Group name required</string>
+    <string name="no_location">No Location found!</string>
+    <string name="deleted">Account deleted successfully</string>
+    <string name="updated">Profile picture updated</string>
+    <string name="otp_required">OTP required!</string>
+    <string name="verify">Verification code is not correct!</string>
+    <string name="valid">Please enter valid format! (Special characters are not allowed like></string>
+    <string name="length">Password length should be at least 6 characters!</string>
+    <string name="password_required">Password required!</string>
+    <string name="format">Phone Number format is incorrect!</string>
+    <string name="number_required">Phone Number required!</string>
+    <string name="welcome">Welcome Back!\n What’s your mobile number?</string>
+    <string name="incorrect">Password incorrect!</string>
+    <string name="uploading">Please Wait!\nUploading data</string>
+    <string name="name">Name required!</string>
+    <string name="permissionn">Permission</string>
+    <string name="send_this">Send this location for meetup</string>
+
+    <string name="afr" translatable="false">Afrikaans</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="azer" translatable="false">Azerbaijani</string>
+    <string name="ben" translatable="false">Bengali</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="czech" translatable="false">Czech</string>
+    <string name="danish" translatable="false">Danish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="english" translatable="false">English</string>
+    <string name="est" translatable="false">Estonian</string>
+    <string name="french" translatable="false">French</string>
+    <string name="german" translatable="false">German</string>
+    <string name="geor" translatable="false">Georgian</string>
+    <string name="greek" translatable="false">Greek</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="hebr" translatable="false">Hebrew</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="korean" translatable="false">Korean</string>
+    <string name="malay" translatable="false">Malay</string>
+    <string name="nepali" translatable="false">Nepali</string>
+    <string name="nor" translatable="false">Norwegian</string>
+    <string name="pers" translatable="false">Persian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="roman" translatable="false">Romanian</string>
+    <string name="rus" translatable="false">Russian</string>
+    <string name="Español" translatable="false">Spanish</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="ukr" translatable="false">Ukrainian</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="uzbek" translatable="false">Uzbek</string>
+    <string name="vietnamese" translatable="false">Vietnamese</string>
+
+</resources>

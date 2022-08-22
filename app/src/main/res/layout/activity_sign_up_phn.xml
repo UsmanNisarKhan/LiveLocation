@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Signup.SignUp">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/need_your_number_to_identify_you"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@+id/guide1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/purple_200"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_signphn_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_arrow___back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/code_picker"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showNameCode="false"
+        android:background="@drawable/ccp_shape"
+        app:ccp_contentColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintBottom_toTopOf="@+id/guide3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:layout_constraintRight_toLeftOf="@+id/edit_phn" />
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_phn"
+        android:gravity="center|start"
+        android:singleLine="true"
+        android:fontFamily="@font/poppins"
+        android:textSize="@dimen/_24sdp"
+        android:background="@null"
+        android:padding="@dimen/_4sdp"
+        android:textColor="@color/white"
+        android:textColorHint="#6f6f6f"
+        android:inputType="phone"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:hint="@string/phone_number"
+        android:layout_marginEnd="@dimen/_24sdp"
+        app:layout_constraintLeft_toRightOf="@+id/code_picker"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintBottom_toTopOf="@+id/guide3"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative2"
+        app:layout_constraintTop_toBottomOf="@+id/guide2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_signphn_next"
+            android:layout_width="@dimen/_42sdp"
+            android:layout_height="@dimen/_42sdp"
+            app:cardCornerRadius="@dimen/_14sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            app:cardBackgroundColor="#a9a9a9"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow___right"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

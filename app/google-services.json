@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190657852720",
+    "project_id": "live-location-7ed18",
+    "storage_bucket": "live-location-7ed18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190657852720:android:271c6d07d19d93325c84f5",
+        "android_client_info": {
+          "package_name": "com.live.location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190657852720-508bpelr9q36r6bm57ts1alk4krsdpmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.live.location",
+            "certificate_hash": "bb1e0426d364631a5bebbcecf5edde4b565ef732"
+          }
+        },
+        {
+          "client_id": "190657852720-6op2a1rmcs367tecpia6chak8b9k6voi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.live.location",
+            "certificate_hash": "8938cfe14971a3823be4322c2f0177f3ca724f79"
+          }
+        },
+        {
+          "client_id": "190657852720-1pubnmp5h0jrpvjrcnf9t7jmqlk0bhjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB72LGE1w7I8ZW09q4bjr5EkTd4hIsOrvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190657852720-1pubnmp5h0jrpvjrcnf9t7jmqlk0bhjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
